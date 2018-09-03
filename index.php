@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 </head>
 <body>
 
@@ -83,27 +84,7 @@
         </div><!--/addnovoproduto-->
     </div><!--/div-container-->
 
-    <!--Modal de exclusão-->
-    <div id="deletaproduto" class="modal fade">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <form>
-                    <div class="modal-header">
-                        <h4 class="modal-title">Apagar produto</h4>
-                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    </div>
-                    <div class="modal-body">
-                        <p>Você têm certeza que deseja excluir esse registro? </p>
-                        <p class="text-warning"><small>Essa ação não terá retorno</small></p>
-                    </div>
-                    <div class="modal-footer">
-                        <input type="button" class="btn btn-default" value="Cancelar">
-                        <input type="submit" class="btn btn-danger" value="Excluir">
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
+
 
 </body>
 </html>
