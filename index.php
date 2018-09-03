@@ -23,7 +23,12 @@
     <div class="container">
         <div class="table-wrapper">
             <div class="row">
-
+                <div class="col-sm-6">
+                   <h2>Teste <b>Estação 4</b></h2>
+                </div>
+                <div class="col-sm-6">
+                    <a href="#" class="btn btn-success" data-toggle="modal"><i class="material-icons">&#xE147;</i> <span>Cadastrar novo produto</span></a>
+                </div>
             </div>
         </div><!--/table-wrapper-->
     </div><!--/div-container-->
