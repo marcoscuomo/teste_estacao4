@@ -56,7 +56,7 @@
                 <div class="modal-content">
                     <form action="inserir.php" method="post">
                         <div class="modal-header">
-                            <h4 class="modal-title">Editar produto</h4>
+                            <h4 class="modal-title">Cadastrar novo produto</h4>
                             <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
                         </div>
                         <div class="modal-body">
@@ -97,7 +97,7 @@
                         <p class="text-warning"><small>Essa ação não terá retorno</small></p>
                     </div>
                     <div class="modal-footer">
-                        <input type="button" class="btn btn-default" data-dismiss="modal" value="Cancelar">
+                        <input type="button" class="btn btn-default" value="Cancelar">
                         <input type="submit" class="btn btn-danger" value="Excluir">
                     </div>
                 </form>
