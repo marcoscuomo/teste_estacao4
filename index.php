@@ -18,10 +18,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
-    <?php
-        require 'banco.php' ;
-        $banco = new Banco();
-    ?>
+
     <div class="container">
         <div class="table-wrapper">
             <div class="table-title">
@@ -95,7 +92,7 @@
         <div id="modelproduto" class="modal fade">
             <div class="modal-dialog">
                 <div class="modal-content">
-                    <form>
+                    <form action="inserir.php" method="post">
                         <div class="modal-header">
                             <h4 class="modal-title">Editar produto</h4>
                             <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
@@ -116,7 +113,7 @@
                         </div>
                         <div class="modal-footer">
                             <input type="button" class="btn btn-default" data-dismiss="modal" value="Cancelar">
-                            <input type="button" class="btn btn-info" value="Salvar">
+                            <input type="submit" class="btn btn-info" value="Salvar">
                         </div>
                     </form>
                 </div>

@@ -1,7 +1,5 @@
 <?php
 
-    require '../banco.php';
-
     class Produto{
 
         private $id;
@@ -63,12 +61,8 @@
         }
 
 
-        //Função para pegar os dados do formulário
-        private function getValores(){
-            $this->$this->setNome(addslashes($_POST['nome']));
-            $this->setDescricao(addslashes($_POST['descricao']));
-            $this->setPreco(addslashes($_POST['preco']));
-        }
+
+
 
 
     }
