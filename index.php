@@ -52,7 +52,7 @@
                         <td>Geladeira nova da marca Eletrolux com mais de 10 anos de garantia</td>
                         <td>R$3455,00</td>
                         <td>
-                            <a href="#editEmployeeModal" class="edit" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a>
+                            <a href="#addnovoproduto" class="edit" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a>
                             <a href="#deleteEmployeeModal" class="delete" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Delete">&#xE872;</i></a>
                         </td>
                     </tr>
@@ -88,8 +88,15 @@
                     </tr>
                 </tbody>
             </table>
-
         </div><!--/table-wrapper-->
+
+        <!--Modal cadastro-->
+        <div id="addnovoproduto" class="modal fade">
+            <div>
+
+            </div>
+        </div><!--/addnovoproduto-->
+
     </div><!--/div-container-->
 
 </body>
