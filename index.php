@@ -124,7 +124,7 @@
     </div><!--/div-container-->
 
     <!--Modal de exclusão-->
-    <div id="deletaproduto" class="modal-fade">
+    <div id="deletaproduto" class="modal fade">
         <div class="modal-dialog">
             <div class="modal-content">
                 <form>
@@ -137,7 +137,7 @@
                         <p class="text-warning"><small>Essa ação não terá retorno</small></p>
                     </div>
                     <div class="modal-footer">
-                        <input type="button" class="btn btn-default" data-dismiss="true" value="Cancelar">
+                        <input type="button" class="btn btn-default" data-dismiss="modal" value="Cancelar">
                         <input type="submit" class="btn btn-danger" value="Excluir">
                     </div>
                 </form>
