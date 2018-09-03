@@ -5,10 +5,27 @@
     //Pegando os valores do formulário
     $nome = $_POST['nome'];
     $descricao = $_POST['descricao'];
-    $preco = $_POST['preco'];
+    $valor = $_POST['preco'];
+
+
+    //Função para ajustar o valor digitado com virgula
+    function valor($valor) {
+        $verificaPonto = ".";
+        if(strpos("[".$valor."]", "$verificaPonto")):
+            $valor = str_replace('.','', $valor);
+            $valor = str_replace(',','.', $valor);
+        else:
+            $valor = str_replace(',','.', $valor);
+        endif;
+
+        return $valor;
+    }
+
+    $valor = valor($valor);
+
 
     //Query de inserção
-    $sql = "INSERT INTO produtos SET nome = '$nome', descricao = '$descricao', preco = '$preco'; ";
+    $sql = "INSERT INTO produtos SET nome = '$nome', descricao = '$descricao', preco = '$valor'; ";
     echo $sql;
 
     //Executa a query

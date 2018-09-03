@@ -36,7 +36,22 @@
             $descricao = addslashes($_POST['descricao']);
             $preco = addslashes($_POST['preco']);
 
-            $atualiza = "UPDATE produtos set nome = '$nome', descricao = '$descricao', preco = '$preco' WHERE id = '$id'";
+            //Função para ajustar o valor digitado com virgula
+            function valor($valor) {
+                $verificaPonto = ".";
+                if(strpos("[".$valor."]", "$verificaPonto")):
+                    $valor = str_replace('.','', $valor);
+                    $valor = str_replace(',','.', $valor);
+                else:
+                    $valor = str_replace(',','.', $valor);
+                endif;
+
+                return $valor;
+            }
+
+            $valor = valor($preco);
+
+            $atualiza = "UPDATE produtos set nome = '$nome', descricao = '$descricao', preco = '$valor' WHERE id = '$id'";
             $pdo->query($atualiza);
             header("Location: index.php");
 
@@ -81,7 +96,6 @@
                         </div>
                     </div>
                     <div class="modal-footer">
-                        <input type="button" class="btn btn-default" value="Cancelar">
                         <input type="submit" class="btn btn-info" value="Salvar">
                     </div>
                 </form>
