@@ -29,7 +29,7 @@
                     </div>
                     <div class="col-sm-6">
                         <a href="#" class="btn btn-success" data-toggle="modal"><i class="material-icons">&#xE147;</i> <span>Cadastrar novo produto</span></a>
-                        <a href="#deleteEmployeeModal" class="btn btn-danger" data-toggle="modal"><i class="material-icons">&#xE15C;</i> <span>Apagar</span></a>
+                        <a href="#deletaproduto" class="btn btn-danger" data-toggle="modal"><i class="material-icons">&#xE15C;</i> <span>Apagar</span></a>
                     </div>
                 </div>
             </div>
@@ -52,8 +52,8 @@
                         <td>Geladeira nova da marca Eletrolux com mais de 10 anos de garantia</td>
                         <td>R$3455,00</td>
                         <td>
-                            <a href="#addnovoproduto" class="edit" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a>
-                            <a href="#deleteEmployeeModal" class="delete" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Delete">&#xE872;</i></a>
+                            <a href="#modelproduto" class="edit" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a>
+                            <a href="#deletaproduto" class="delete" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Delete">&#xE872;</i></a>
                         </td>
                     </tr>
                     <tr>
@@ -91,7 +91,7 @@
         </div><!--/table-wrapper-->
 
         <!--Modal cadastro-->
-        <div id="addnovoproduto" class="modal fade">
+        <div id="modelproduto" class="modal fade">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <form>
@@ -121,10 +121,29 @@
                 </div>
             </div><!--/modal-dialog-->
         </div><!--/addnovoproduto-->
-
-
-
     </div><!--/div-container-->
+
+    <!--Modal de exclusão-->
+    <div id="deletaproduto" class="modal-fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <form>
+                    <div class="modal-header">
+                        <h4 class="modal-title">Apagar produto</h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Você têm certeza que deseja excluir esse registro? </p>
+                        <p class="text-warning"><small>Essa ação não terá retorno</small></p>
+                    </div>
+                    <div class="modal-footer">
+                        <input type="button" class="btn btn-default" data-dismiss="true" value="Cancelar">
+                        <input type="submit" class="btn btn-danger" value="Excluir">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
 
 </body>
 </html>
