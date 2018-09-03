@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="pt-BR">
 <head>
@@ -44,46 +45,7 @@
                 </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                        <td>019899</td>
-                        <td>Geladeria Eletrolux</td>
-                        <td>Geladeira nova da marca Eletrolux com mais de 10 anos de garantia</td>
-                        <td>R$3455,00</td>
-                        <td>
-                            <a href="#modelproduto" class="edit" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a>
-                            <a href="#deletaproduto" class="delete" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Delete">&#xE872;</i></a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>019899</td>
-                        <td>Geladeria Eletrolux</td>
-                        <td>Geladeira nova da marca Eletrolux com mais de 10 anos de garantia</td>
-                        <td>R$3455,00</td>
-                        <td>
-                            <a href="#editEmployeeModal" class="edit" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a>
-                            <a href="#deleteEmployeeModal" class="delete" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Delete">&#xE872;</i></a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>019899</td>
-                        <td>Geladeria Eletrolux</td>
-                        <td>Geladeira nova da marca Eletrolux com mais de 10 anos de garantia</td>
-                        <td>R$3455,00</td>
-                        <td>
-                            <a href="#editEmployeeModal" class="edit" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a>
-                            <a href="#deleteEmployeeModal" class="delete" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Delete">&#xE872;</i></a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>019899</td>
-                        <td>Geladeria Eletrolux</td>
-                        <td>Geladeira nova da marca Eletrolux com mais de 10 anos de garantia</td>
-                        <td>R$3455,00</td>
-                        <td>
-                            <a href="#editEmployeeModal" class="edit" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a>
-                            <a href="#deleteEmployeeModal" class="delete" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Delete">&#xE872;</i></a>
-                        </td>
-                    </tr>
+                <?php require 'lista.php' ?>
                 </tbody>
             </table>
         </div><!--/table-wrapper-->
