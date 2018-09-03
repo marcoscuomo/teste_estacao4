@@ -36,7 +36,15 @@
 
             <!--Table de registros-->
             <table class="table table-striped table table-hover">
-
+                <thead>
+                <tr>
+                    <th>#id</th>
+                    <th>Produto</th>
+                    <th>Descrição</th>
+                    <th>Preço</th>
+                    <th>Ação</th>
+                </tr>
+                </thead>
             </table>
 
         </div><!--/table-wrapper-->
