@@ -5,6 +5,13 @@ body {
     font-size: 13px;
 }
 
+.btn.btn-success,
+.btn.btn-default:hover{
+    background-color:#bc5100;
+    border-color:#bc5100;
+    color:#fff;
+}
+
 /*Tabela*/
 .table-wrapper {
     background: #fff;
@@ -15,7 +22,7 @@ body {
 }
 .table-title {
     padding-bottom: 15px;
-    background: #435d7d;
+    background: #f57f17;
     color: #fff;
     padding: 16px 30px;
     margin: -20px -25px 10px;
