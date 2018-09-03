@@ -22,15 +22,23 @@
 
     <div class="container">
         <div class="table-wrapper">
-            <div class="row">
-                <div class="col-sm-6">
-                   <h2>Teste <b>Estação 4</b></h2>
-                </div>
-                <div class="col-sm-6">
-                    <a href="#" class="btn btn-success" data-toggle="modal"><i class="material-icons">&#xE147;</i> <span>Cadastrar novo produto</span></a>
-                    <a href="#deleteEmployeeModal" class="btn btn-danger" data-toggle="modal"><i class="material-icons">&#xE15C;</i> <span>Apagar</span></a>
+            <div class="table-title">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <h2>Teste <b>Estação 4</b></h2>
+                    </div>
+                    <div class="col-sm-6">
+                        <a href="#" class="btn btn-success" data-toggle="modal"><i class="material-icons">&#xE147;</i> <span>Cadastrar novo produto</span></a>
+                        <a href="#deleteEmployeeModal" class="btn btn-danger" data-toggle="modal"><i class="material-icons">&#xE15C;</i> <span>Apagar</span></a>
+                    </div>
                 </div>
             </div>
+
+            <!--Table de registros-->
+            <table class="table table-striped table table-hover">
+
+            </table>
+
         </div><!--/table-wrapper-->
     </div><!--/div-container-->
 
