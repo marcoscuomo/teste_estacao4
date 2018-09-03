@@ -18,6 +18,10 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
+    <?php
+        require 'banco.php';
+        $banco = new Banco();
+    ?>
     <div class="container">
         <div class="table-wrapper">
             <div class="table-title">
